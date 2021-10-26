@@ -1,12 +1,13 @@
 .App {
   text-align: center;
-  background-color: black;
   height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url('echolight-2.jpg');
+  background-size: cover;
 }
 
 h1 {
   color: lightgray;
-  margin: 0;
 }
 
 .Title {
