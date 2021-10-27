@@ -1,16 +1,18 @@
 .App {
   text-align: center;
   height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
     url('echolight-mobile.jpg');
   background-size: cover;
+  background-position: center;
   min-width: 375px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
   .App {
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
       url('echolight-2.jpg');
+    background-size: 100%;
   }
 }
 
