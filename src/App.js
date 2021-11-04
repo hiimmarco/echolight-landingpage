@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <main>
         <div className="Title">
-          <h1>Echolight</h1>
+          <h1>echolight</h1>
           <p>coming in 2022</p>
         </div>
       </main>
