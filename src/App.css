@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Star Avenue';
+  font-style: normal;
+  font-weight: normal;
+  src: url(staravenue.woff) format('woff');
+}
+
 .App {
   text-align: center;
   height: 100vh;
@@ -17,16 +24,16 @@
 }
 
 h1 {
-  color: rgb(255, 255, 255);
-  font-size: 3rem;
-  font-family: 'Montserrat', sans-serif;
+  color: rgb(245, 245, 245);
+  font-size: 4rem;
+  font-family: 'Star Avenue', sans-serif;
   font-weight: bold;
   margin-bottom: 2rem;
 }
 
 p {
   color: rgb(242, 242, 242);
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   font-family: 'Helvetica Neue', sans-serif;
   font-weight: semi-bold;
 }
